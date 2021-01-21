@@ -1,0 +1,24 @@
+* {
+    font-size: 70px;
+}
+
+.brdius {
+    margin: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid red;
+    padding: 50px;
+}
+
+.b {
+    width: 80%;
+}
+
+.a {
+    width: 50%;
+}

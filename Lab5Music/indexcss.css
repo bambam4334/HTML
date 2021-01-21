@@ -1,0 +1,31 @@
+body {
+    font-family: 'Pridi', serif;
+}
+
+.black {
+    margin: auto;
+    height: 75px;
+}
+
+.spotifire {
+    width: 200px;
+}
+
+img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+h5, b {
+    font-family: 'Pridi', serif;
+    font-size: 13px;
+}
+
+.card {
+    height: 100%;
+}
+
+p {
+    font-family: 'Pridi', serif;
+    font-size: 10px;
+}

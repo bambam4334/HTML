@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-In</title>
+    <link href="indexcss.css" rel="stylesheet">
+    <script src="script.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="w70">
+        <p class="title">ลงทะเบียนร่วมงาน</p>
+    </div>
+    <div class="w70 borange fwhite">
+        <input id="code" class="inputcss" placeholder="รหัสนักศึกษา">
+        <input id="first" class="inputcss" placeholder="ชื่อ">
+        <input id="last" class="inputcss" placeholder="นามสกุล">
+        <input onclick="toTable()" type="submit" class="submitcss" value="ลงทะเบียน">
+    </div>
+    <div class="w70 borange fwhite">
+        <table class="tablecss">
+            <tbody id="idtbody">
+                <tr>
+                    <td class="top">ลำดับที่</td>
+                    <td class="top">รหัสนักศึกษา</td>
+                    <td class="top">ชื่อ</td>
+                    <td class="top">นามสกุล</td>
+                </tr> 
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

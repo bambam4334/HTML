@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.black {
+    margin: auto;
+    height: 75px;
+}
+
+.spotifire {
+    width: 200px;
+}
+
+.up {
+    margin-top: 0px;
+}
+
+.cover {
+    width: 125px;
+    border-radius: 5px;
+    margin-right: 20px;
+    float: left;
+}
+
+.song {
+    margin-top: -10px;
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.artist {
+    margin-top: -25px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: #dd3c4b;
+}
+
+.fcover {
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+    float: left;
+}
+
+.fsong {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fartist {
+    margin-top: -17px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: #dd3c4b;
+}
+
+.genre {
+    margin-top: -15px;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+a {
+    margin-top: -3px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.between {
+    margin-top: 10px;
+}
+
+.playlist {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    font-size: 15px;
+}

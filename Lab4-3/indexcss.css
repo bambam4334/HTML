@@ -1,0 +1,68 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fwhite {
+    color: white;
+}
+
+p.title {
+    padding-left: 10px;
+    font-family: 'Mitr', sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.w70 {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: auto;
+    margin-top: -20px;
+    background-color: #ff9868;
+    width: 70%;
+}
+
+.borange {
+    background-color: #ffe491;
+}
+
+.inputcss {
+    padding: 10px;
+    font-family: 'Mitr', sans-serif;
+    margin-right: 20px;
+    height: 30px;
+    width: 190px;
+    border-radius: 5px;
+    border-color: #ff9868;
+    border: #ff9868;
+    color: black;
+}
+
+.submitcss {
+    font-family: 'Mitr', sans-serif;
+    width: 170px;
+    border-color: #efefef;
+    border-radius: 5px;
+    height: 50px;
+}
+
+table {
+    font-family: 'Mitr', sans-serif;
+    border-collapse: collapse;
+}
+
+tr, td {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 225px;
+    border: 2px solid #ffe491;
+    background-color: #ffb868;
+}
+
+.top {
+    background-color: #ff9868;
+}

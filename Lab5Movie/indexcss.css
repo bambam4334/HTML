@@ -1,0 +1,34 @@
+body {
+    font-family: 'Pridi', serif;
+}
+
+div {
+    font-family: 'Pridi', serif;
+}
+
+img {
+    width: 100%;
+}
+
+.align {
+    text-align: center  ;
+}
+
+.w100 {
+    width: 100%;
+    font-family: 'Pridi', serif;
+}
+
+h5, b {
+    font-family: 'Pridi', serif;
+    font-size: 15px;
+}
+
+p {
+    font-family: 'Pridi', serif;
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 40px;
+}

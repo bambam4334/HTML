@@ -1,0 +1,39 @@
+body{
+    font-family: 'Mitr', sans-serif;
+}
+
+.font {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Mitr', sans-serif;
+}
+
+.textNode {
+    padding-left: 20px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 300px;
+    height: 150px;
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+
+.up {
+    margin-top: -25px;
+}
+
+.inputtext {
+    margin-bottom: 10px;
+    font-family: 'Mitr', sans-serif;
+}
+
+.float {
+    float: left;
+}
+
+.padder {
+    padding-top: 3px;
+    padding-left: 20px;
+}
