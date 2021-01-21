@@ -1,0 +1,25 @@
+body{
+    font-family: 'Mitr', sans-serif;
+}
+
+.row {
+    width: 60%;
+    margin: auto;
+    margin-top: -40px;
+    background-color: #dc3545;
+    color: white;
+}
+
+.underrow {
+    width: 60%;
+    margin: auto;
+    margin-top: -40px;
+    background-color: #394257;
+    color: white;
+}
+
+.title {
+    font-size: 40px;
+    padding: 20px;
+    padding-left: 30px;
+}

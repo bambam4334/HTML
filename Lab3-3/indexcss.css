@@ -1,0 +1,30 @@
+.pt {
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.colcolor {
+    background-color: #394257;
+}
+
+.pleft {
+    padding-left: 62px;
+}
+
+.afont {
+    font-family: 'Mitr', sans-serif;
+}
+
+.cell {
+    display: inline-block;
+    float: left;
+}
+
+.redline {
+    padding-top: 50px;
+    background-color: #dc3545;
+}
+
+.back {
+    background-color: #343a40;
+}
