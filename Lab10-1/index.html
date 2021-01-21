@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB10-1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        font-family: 'Prompt', sans-serif;
+    }
+    form{
+        border: 1px solid black;
+        background-color: rgb(255, 145, 0);
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    input{
+        margin: 5px;;
+    }
+    div{
+        width: 40%;
+    }
+    iframe{
+        margin-top: 20px;
+    }
+    button{
+        background-color: rgb(247, 202, 6);
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+</style>
+<body> <center>
+    <div>
+    <form>
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination">
+        <button type="button" onclick="getDest()">ไปยังจุดหมาย</button>
+    </form>
+    <form>
+        <label for="lat">Latitude:</label>
+        <input type="text" id="lat" name="lat">
+        <label for="long">Longitude:</label>
+        <input type="text" id="long" name="long">
+        <button type="button" onclick="getLatLong()">ไปยังจุดหมาย</button>
+    </form>
+    <iframe id="map" 
+        width="100%" 
+        height="500" 
+        src="https://maps.google.com/maps?q=&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        frameborder="0"
+        allowfullscreen>
+</iframe></center>
+</div>
+</body>
+<script>
+    function getDest(){
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                document.getElementById('map').src = 'https://maps.google.com/maps?q=' + document.getElementById("destination").value + '&t=&z=15&ie=UTF8&iwloc=&output=embed';
+            });
+        } else {
+            console.error('location not supported');
+        }
+    }
+    function getLatLong(){
+    if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                var pos = {
+                    'lat': document.getElementById("lat").value,
+                    'long': document.getElementById("long").value
+                };
+                console.log(pos);
+                document.getElementById('map').src = 'https://maps.google.com/maps?q=' + pos.lat + ', ' + pos.long + '&t=&z=15&ie=UTF8&iwloc=&output=embed';
+            });
+        } else {
+            console.error('location not supported');
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,48 @@
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Web Tech 2020 : Scrolling Parallax Demo</title>
+
+        <link rel="stylesheet" type="text/css" href="http://10.0.15.12/lab11/css/default.css" />
+        <link rel="stylesheet" type="text/css" href="http://10.0.15.12/lab11/css/style.css" />
+        <script src="http://10.0.15.12/lab11/js/jquery.js"></script>
+        <script src="http://10.0.15.12/lab11/js/animations.js"></script>
+        <script src="http://10.0.15.12/lab11/js/jarallax.js"></script>
+</head>
+<style>
+    body, html {
+      height: 100%;
+    }
+    
+    .parallax {
+      /* The image used */
+      background-image: url('http://10.0.15.12/lab11/images/back.jpg');
+    
+      /* Full height */
+      height: 100%; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+    @media only screen and (max-device-width: 1366px) {
+      .parallax {
+        background-attachment: scroll;
+      }
+    }
+    </style>
+<body>
+    <p>In this example we have turned off parallax scrolling for mobile devices. It works as expected on all desktop screens sizes.</p>
+    <p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+    
+    <div class="parallax"></div>
+    
+    <div style="height:1000px;background-color:red;font-size:36px">
+    Parallax scrolling is a web site trend where the background content (i.e. an image) is moved at a different speed than the foreground content while scrolling. 
+    </div>
+    <div class="parallax"></div>
+    </body>

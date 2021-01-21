@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .header {
+    padding: 15px;
+  }
+  
+  .topper {
+      float:left;
+      padding: 20px;
+      margin: auto;
+      width: 100%;
+  }
+  
+  p.size40 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  p.size30 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  p.sizep {
+    font-size: 15px;
+  }
+
+  img {
+      width: 100%;
+  }
+
+@media only screen and (max-width: 767px) {
+  #flex { 
+    display: flex; flex-direction: column;
+  }
+  
+  #a {
+    margin-top: 20px;
+    order: 2; 
+  }
+  
+  #b { 
+    order: 1; 
+  }
+}

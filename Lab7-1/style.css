@@ -1,0 +1,16 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+p {
+    font-size: 30px;
+}
+
+td {
+    padding: 20px;
+    font-size: 20px;
+}
+
+tr {
+    border-bottom: 2px solid black;
+}

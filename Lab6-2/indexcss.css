@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+  padding: 15px;
+}
+
+.topper {
+    float:left;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+}
+
+p.size40 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+p.sizep {
+  font-size: 20px;
+}
+
+.image {
+    float:left;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .image {
+        width: 100%;
+    }
+}

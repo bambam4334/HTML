@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  .header {
+    padding: 15px;
+  }
+  
+  .topper {
+      float:left;
+      padding: 20px;
+      margin: auto;
+      width: 60%;
+  }
+
+  p.size40 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  p.size30 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  p.size20 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  p.sizep {
+    font-size: 12px;
+  }
+
+  .ctr {
+    text-align: center;
+  }
+
+  img {
+    border-radius: 10px;
+    height: 50vh;
+    margin: 5px;
+  }
+
+  li {
+    font-weight: 300;
+  }
+
+  .csscenter {
+    display: block;
+    margin: auto;
+  }
+
+  .heighter {
+    height: 100px;
+  }
